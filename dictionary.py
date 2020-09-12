@@ -13,3 +13,11 @@ d1[345]="kabab"
 #    print(d1)
 #   del d1[345]
 #   print(d1)
+
+d3 = d1      #d3,d1 act as pointers, which references d1, removing an element from d1 doesnt affect d1
+d0 = d1.copy()      #d0 acts as another dictionary copy of d1 with the same elements in it. d0 can now me modified without affecting d1
+#   print(d1.get("kabab"))
+d1.update({"leena":"sandwich"})
+#   print(d1)
+#    print(d1.keys())
+#    print(d1.items())

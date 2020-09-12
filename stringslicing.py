@@ -19,7 +19,7 @@
 
 #   print(myst.capitalize())           o/p =   ENTER YOUR NAME
 
-#   print(myst.find("name")       o/p = 11
+#   print(myst.find("name"))       o/p = 11
 
 #   print(myst.upper())
 #   print(myst.lower())
@@ -73,3 +73,12 @@
 #  zfill() -  Fills the string with a specified number of 0 values at the beginning
 
 
+##          defining strings across lines
+s="""this is amrutya
+who believes that everyman is 
+the creator of his own destiny"""
+print(s)
+print(s[0])
+print(s*2)      ##displays the string twice
+print(len(s))
+print(s[0:8])

@@ -35,7 +35,19 @@ var4 = "100"
 #print("you entered inpnum as", int(inpnum) + 100)   #no-error
 
 
-print("enter two numbers\n")
-v1 = input()
-v2 = input()
+#print("enter two numbers\n")
+#v1 = input()
+#v2 = input()
 #print("the sum of two nos is --",int(v1)+int(v2))
+
+            ###BINARY###
+e=0B1010
+print(e)
+
+            ###HEXADECIMAL###
+f=0XFF
+print(f)
+
+            ###OCTADECIMAL###
+o=0O2342
+print(o)
